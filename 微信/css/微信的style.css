@@ -1,0 +1,461 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.zhuyemian {
+	width: 100%;
+	min-width: 400px;
+	height: 100%;
+	background-color: #FAFAFA;
+	position: fixed;
+	display: block;
+	align-content: center;
+	/*	overflow: hidden;*/
+}
+
+.daohanglan {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 400px;
+	height: 30px;
+	position: fixed;
+	top: 0px;
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+}
+
+.xh {
+	display: flex;
+}
+
+.xinhao {
+	width: 6px;
+	height: 6px;
+	margin: 12px 0px 12px 2px;
+	background-color: #BDBDBD;
+	border-radius: 50%;
+}
+
+#dian {
+	position: relative;
+}
+
+#dianchi {
+	width: 20px;
+	height: 10px;
+	background-image: url(../img/icon/control/电池电量图.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.daohanglandiv {
+	height: 30px;
+	width: 125px;
+	/*box-shadow: 0px 0px 2px #BDBDBD;*/
+}
+
+.tishihang {
+	height: 40px;
+	width: 100%;
+	min-width: 400px;
+	margin: 0 auto;
+	position: fixed;
+	top: 30px;
+	/*box-shadow: 0px 0px 1px #BDBDBD;*/
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+}
+
+
+#jiahao:hover .tanchukuang {
+	visibility: inherit;
+}
+
+.tshdiv {
+	height: 40px;
+	width: 150px;
+	/*box-shadow: 0px 0px 2px #64B5F6;*/
+}
+
+.ztgs {
+	text-align: center;
+	line-height: 30px;
+	color: #BDBDBD;
+	font-size: 15px;
+}
+
+.zztgs {
+	line-height: 30px;
+	color: #BDBDBD;
+	font-size: 15px;
+}
+
+.yztgs {
+	text-align: right;
+	line-height: 30px;
+	color: #BDBDBD;
+	font-size: 15px;
+}
+
+.ycxtb {
+	display: inline-block;
+	height: 40px;
+	width: 150px;
+	/*box-shadow: 0px 0px 2px #64B5F6;*/
+	position: relative;
+}
+
+.dz {
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	color: #BDBDBD;
+}
+
+.sousuolan {
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	top: 70px;
+	/*box-shadow:0px 0px 2px #1565C0;*/
+	background-color: #EEEEEE;
+	min-width: 400px;
+}
+
+.sousuo {
+	width: 100%;
+	height: 20px;
+	margin: 5px;
+	box-shadow: 0px 0px 2px #1565C0;
+	display: flex;
+	justify-content: space-between;
+	background-color: #FAFAFA;
+	min-width: 400px;
+}
+
+.sousuo1 {
+	height: 30px;
+	width: 150px;
+	box-shadow: 0px 0px 2px #64B5F6;
+	min-width: 400px;
+}
+
+.ztgs2 {
+	text-align: center;
+	line-height: 20px;
+	color: #BDBDBD;
+	font-size: 15px;
+}
+
+#jiahao {
+	position: absolute;
+	right: 15px;
+	width: 20px;
+	height: 40px;
+	background-image: url(../img/icon/material/加号.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#zhaoren {
+	position: absolute;
+	right: 15px;
+	width: 20px;
+	height: 40px;
+	background-image: url(../img/icon/control/添加朋友.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.dibudaohanglan1 {
+	position: fixed;
+	bottom: 15px;
+	width: 100%;
+	height: 30px;
+	min-width: 400px;
+	box-shadow: 0px 0px 1px #5D4037;
+	background-color: #EEEEEE;
+	display: flex;
+	
+	justify-content: space-between;
+}
+
+.dibudaohanglan1 div {
+	width: 75px;
+	height: 30px;
+	/*box-shadow: 0px 0px 1px blueviolet;*/
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#dhlt1 {
+	background-image: url(../img/icon/menu/聊天.svg);
+}
+
+#dhlt12 {
+	background-image: url(../img/icon/menu/聊天-press.svg);
+}
+
+#dhlt2 {
+	background-image: url(../img/icon/menu/通讯录.svg);
+}
+
+#dhlt22 {
+	background-image: url(../img/icon/menu/通讯录-press.svg);
+}
+
+#dhlt3 {
+	background-image: url(../img/icon/menu/发现.svg);
+}
+
+#dhlt32 {
+	background-image: url(../img/icon/menu/发现-press.svg);
+}
+
+#dhlt4 {
+	background-image: url(../img/icon/menu/me.svg);
+}
+
+#dhlt42 {
+	background-image: url(../img/icon/menu/me-press.svg);
+}
+
+.dibudaohanglan2 {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 15px;
+	min-width: 400px;
+	/*box-shadow: 0px 0px 1px #5D4037;*/
+	background-color: #EEEEEE;
+	display: flex;
+	justify-content: space-between;
+}
+
+.dibudaohanglan2 div {
+	width: 75px;
+	height: 15px;
+	/*box-shadow: 0px 0px 1px blueviolet;*/
+	font-size: 11px;
+	color: darkgray;
+	text-align: center;
+	line-break: 15px;
+}
+
+#dayemian{
+	position: fixed;
+	top: 100px;
+	bottom: 80px;
+	height:80% ;
+	width: 100%;
+	flex: 1;
+	overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+		display:none;
+	}
+.xiaoyuandian{
+	position: relative;
+}
+#xiaoyuandian {
+	width: 18px;
+	height: 18px;
+	margin: 0px;
+	background-color: red;
+	border-radius: 50%;
+	position:absolute;
+	top: -5px;
+	left: -25px;
+	text-align: center;
+	line-height: 18px;
+	color: white;
+	font-size: 13px;
+}
+
+#xiaoyuandian2 {
+	width: 18px;
+	height: 18px;
+	margin: 0px;
+	background-color: red;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 32px;
+	left: 45px;
+	text-align: center;
+	line-height: 18px;
+	color: white;
+	font-size: 13px;
+	z-index: 100;
+}
+
+.lt {
+	width: 100%;
+	height: 80px;
+	
+	box-shadow: 0px 0px 1px darkcyan;
+	border-bottom: 1px darkcyan;
+	border-top: 1px darkcyan;
+	display: flex;
+}
+
+
+.touxiang {
+	width: 80px;
+	height: 70px;
+	margin: 5px;
+	/*box-shadow: 0px 0px 1px  darkcyan;*/
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.liaotnr {
+	width: 240px;
+	height: 70px;
+	margin: 5px;
+	padding: 10px;
+	/*box-shadow: 0px 0px 1px  darkcyan;*/
+}
+
+.liaotsj {
+	width: 60px;
+	height: 70px;
+	margin: 5px;
+	/*box-shadow: 0px 0px 1px  darkcyan;*/
+	position: absolute;
+	right: 0px;
+	text-align: right;
+	line-height: 20px;
+	color: #9E9E9E;
+}
+
+#diyihang {
+	color: #4E342E;
+	text-shadow: 0px 0px 1px #000000;
+	font-size: 18px;
+}
+
+#tx1 {
+	background-image: url(../img/photo/汉堡.jpg);
+}
+
+#tx2 {
+	background-image: url(../img/photo/女孩-01.jpeg);
+}
+
+#tx3 {
+	background-image: url(../img/photo/moments-portrait/开心猫.jpg);
+}
+#tx4 {
+	background-image: url(../img/images/建筑-01.jpg);
+}
+#tx5 {
+	background-image: url(../img/photo/情侣-01.jpg);
+}
+#tx6 {
+	background-image: url(../img/photo/奥巴马-01.jpg);
+}
+#tx7 {
+	background-image: url(../img/photo/男孩-01.jpg);
+}
+#deyzy1 {
+	position:absolute;
+	top: 0px;
+}
+
+#deyzy2 {
+	position:absolute;
+	top: 50px;
+}
+
+#deyzy3 {
+	position:absolute;
+	top: 100px;
+}
+
+#deyzy4 {
+	position:absolute;
+	top: 150px;
+}
+
+.deyzy {
+	width: 100%;
+	height: 50px;
+	box-shadow: 0px 0px 1px #42A5F5;
+	position: fixed;
+	display:flex;
+}
+
+.deytp {
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	/*box-shadow: 0px 0px 1px #42A5F5;*/
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.deyzt {
+	width: 100px;
+	height: 40px;
+	margin: 5px;
+	text-align: left;
+	line-height: 40px;
+	/*box-shadow: 0px 0px 1px #42A5F5;*/
+}
+
+#deytp1 {
+	background-image: url(../img/icon/新的朋友.jpg);
+}
+
+#deytp2 {
+	background-image: url(../img/icon/群聊.jpg);
+}
+
+#deytp3 {
+	background-image: url(../img/icon/标签.jpg);
+}
+
+#deytp4 {
+	background-image: url(../img/icon/公众号.jpg);
+}
+
+#a {
+	width: 100%;
+	height: 20px;
+	position:absolute;
+	top: 200px;
+	background-color: #EEEEEE;
+	z-index: 1;
+	/*box-shadow: 0px 0px 1px #42A5F5;*/
+}
+#dayemian2{
+	position:absolute;
+	top: 220px;
+	bottom: 70px;
+	height:40%;
+	width: 100%;
+	flex-grow: 1;
+}
+#dayemianer{
+	position:relative;
+	top: 100px;
+	height:80%;
+	width: 100%;
+	flex: 1;
+	overflow-y: scroll;
+	background-color: #F5F5F5;
+	align-content:  center;/*纵向排列*/
+}
