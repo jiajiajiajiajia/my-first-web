@@ -79,7 +79,7 @@
 	position: absolute;
 	right: 30px;
 	top: 30px;
-	/*opacity: .8;*/
+	opacity: .8;
 	vertical-align: middle;
 	align-items: center;
 	color: white;
@@ -513,7 +513,7 @@
 	position:absolute;
 	top: 220px;
 	bottom: 70px;
-	height:40%;
+	height:80%;
 	width: 100%;
 	flex-grow: 1;
 }
@@ -526,4 +526,14 @@
 	overflow-y: scroll;
 	background-color: #F5F5F5;
 	align-content:  center;/*纵向排列*/
+}
+#xiaosanjiaojh{
+	position: absolute;
+	top: -8px;
+	left: 75px ;
+	width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #424242;
 }

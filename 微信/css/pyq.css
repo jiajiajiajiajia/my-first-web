@@ -262,7 +262,7 @@ a:link{
 	height: 40px;
 	align-content: center;/*div纵向布局*/
 	position: relative;
-	background-color: #EEEEEE;
+	background-color: #A9A9A9;
 	border-radius: 10px;
 }
 #dianzanren{
@@ -308,4 +308,14 @@ a:link{
 	line-height: 20px;
 	color:  #5D4037 ;
 	font-size:12px ;
+}
+#xiaosanjiaopyq{
+	position: absolute;
+	top: -8px;
+	left:10px ;
+	width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #A9A9A9;
 }
