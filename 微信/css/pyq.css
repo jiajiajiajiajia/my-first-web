@@ -62,7 +62,7 @@ a:link{
 	/*box-shadow: 0px 0px 1px red;*/
 }
 #yck{
-	width: 320px;
+	width: 240px;
 	height: 210px;
 	/*box-shadow: 0px 0px 1px red;*/
 	align-content:  center;
@@ -175,7 +175,7 @@ a:link{
 	/*box-shadow: 0px 0px 1px red;*/
 	display: flex;
 	position: absolute;
-	top: 680px;
+	top: 690px;
 	background-color: #F5F5F5;
 }
 #pyqtx3{
@@ -198,7 +198,7 @@ a:link{
 	width: 80px;
 	height: 80px;
 	position: absolute;
-	top: -48px;
+	top: -65px;
 	right: 30px;
 	border: 2px white;
 	background-image: url(../img/icon/control/头像.jpg);
