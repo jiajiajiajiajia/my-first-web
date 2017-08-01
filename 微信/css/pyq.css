@@ -20,14 +20,25 @@ a:link{
 	height: 200px;
 	width: 100%;
 	position: fixed;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
+}
+.xj{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	background-image: url(../img/icon/control/xiangji.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 #pyqnr1{
 	width: 100%;
 	min-width: 400px;
 	                                                   height: 210px;
 	position: fixed;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	display: flex;
 	position: absolute;
 	top: 200px;
@@ -36,9 +47,9 @@ a:link{
 #pyqnr2{
 	width: 100%;
 	min-width: 400px;
-	                                                   height: 210px;
+	                                                   height: 250px;
 	position: fixed;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	display: flex;
 	position: absolute;
 	top: 410px;
@@ -47,26 +58,26 @@ a:link{
 #zck{
 	width: 80px;
 	height: 300px;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 }
 #yck{
 	width: 320px;
 	height: 300px;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	align-content:  center;
 }
 #pyqtx1{
 	width: 70px;
 	height: 70px;
 	margin: 5px;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	background-image:url(../img/photo/女孩-02.jpeg);
 	background-size: cover;
 }
 #pyqwm{
 	width:80px;
 	height: 30px;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	text-align: left;
 	text-indent: 5px;
 	line-height: 30px;
@@ -82,14 +93,14 @@ a:link{
 	margin: 5px 0px 0px 10px;
 	width: 200px;
 	height: 120px;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	background-image: url(../img/L320U4284A2A_1000x500.jpg);
 	background-size: cover;
 }
 #sjdzq{
 	width: 320px;
 	height: 30px;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	display: flex;
 	position: relative;
 }
@@ -110,7 +121,7 @@ a:link{
 	width: 70px;
 	height: 70px;
 	margin: 5px;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	background-image:url(../img/photo/女孩-01.jpeg);
 	background-size: cover;
 	background-position: center;
@@ -120,7 +131,7 @@ a:link{
 	margin: 5px 0px 0px 10px;
 	width: 300px;
 	height: 120px;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	display: flex;
 	
 }
@@ -128,7 +139,7 @@ a:link{
 	width: 90px;
 	margin: 0px 5px;
 	height: 120px;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	background-image:url(../img/photo/汉堡.jpg);
 	background-size: contain;
 	background-position: center;
@@ -139,7 +150,7 @@ a:link{
 	width: 90px;
 	margin: 0px 5px;
 	height: 120px;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	background-image:url(../img/photo/汉堡.jpg);
 	background-size: contain;
 	background-position: center;
@@ -149,7 +160,7 @@ a:link{
 	width: 90px;
 	margin: 0px 5px;
 	height: 120px;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	background-image:url(../img/photo/汉堡.jpg);
 	background-size: contain;
 	background-position: center;
@@ -160,17 +171,17 @@ a:link{
 	min-width: 400px;
 	height: 210px;
 	position: fixed;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	display: flex;
 	position: absolute;
-	top: 620px;
+	top: 660px;
 	background-color: #F5F5F5;
 }
 #pyqtx3{
 	width: 70px;
 	height: 70px;
 	margin: 5px;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	background-image:url(../img/icon/control/头像.jpg);
 	background-size: cover;
 }
@@ -178,7 +189,123 @@ a:link{
 	margin: 5px 0px 0px 10px;
 	width: 200px;
 	height: 120px;
-	box-shadow: 0px 0px 1px red;
+	/*box-shadow: 0px 0px 1px red;*/
 	background-image: url(../img/3-160HQ43P3.jpg);
 	background-size: cover;
+}
+#wodetx{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: -48px;
+	right: 30px;
+	border: 2px white;
+	background-image: url(../img/icon/control/头像.jpg);
+	background-size: cover;
+	
+}
+#wodemz{
+	width: 60px;
+	height: 20px;
+	position: absolute;
+	top: -20px;
+	right: 120px;
+	text-align: right;
+	line-height: 20px;
+	text-shadow: 0px 0px 1px #4E342E;
+	color: #4E342E;
+}
+#tanchukuang{
+	width: 140px;
+	height: 30px;
+	background-color: #424242;
+	position: absolute;
+	right: 30px;
+	top: 1px;
+	opacity: .8;
+	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 10px;
+	border-radius: 5px;
+}
+#tanchukuang div:nth-child(n) {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+	width: 65px;
+
+}
+#xinxingtu{
+	width: 15px;
+	height: 15px;
+	background-image: url(../img/icon/control/xinxingtu.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#pingluntu{
+	width: 15px;
+	height:15px;
+	background-image: url(../img/icon/control/pingluntu.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#dianzankuang{
+	width: 320pz;
+	height: 40px;
+	border:1px red;
+	align-content: center;/*div纵向布局*/
+	position: relative;
+	background-color: #EEEEEE;
+	border-radius: 10px;
+}
+#dianzanren{
+	width: 320px;
+	height: 20pxs;
+	border: 1px red;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px #616161;
+}
+#dianzantu{
+	position: absolute;
+	left: 10px;
+	width: 18px;
+	height: 18px;
+	margin: 2px;
+	background-image: url(../img/icon/moments/赞.svg);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#dianzanrenming{
+	width: 250px;
+	height: 20px;
+	line-height: 20px;
+	text-shadow: 0px 0px 1px  #5D4037;
+	color:  #5D4037 ;
+	font-size:12px ;
+}
+#dianzanrenmingplq{
+	position: absolute;
+	left: 10px;
+	width: 40px;
+	height: 20px;
+	line-height: 20px;
+	text-shadow: 0px 0px 1px  #5D4037;
+	color:  #5D4037 ;
+	font-size:12px ;
+}
+#pinglunneirong{
+	width: 200px;
+	height: 20px;
+	line-height: 20px;
+	color:  #5D4037 ;
+	font-size:12px ;
 }

@@ -8,7 +8,7 @@
 	display: flex;
 	position:relative;
 	margin: 20px 0px 0px 0px;
-	                box-shadow: 0px 0px 1px red;
+	                /*box-shadow: 0px 0px 1px red;*/
 }
 
 .ymsh3{
@@ -22,7 +22,7 @@
 	display: flex;
 	position:relative;
 	margin:0px 0px 20px 0px;
-	                box-shadow: 0px 0px 1px red;
+	                /*box-shadow: 0px 0px 1px red;*/
 }
 .ymsh2{
 	margin: 0 auto;
@@ -35,7 +35,7 @@
 	position:relative;
 	margin: 20px 0px 0px 0px;
 	border-bottom: 2px #616161;
-	                box-shadow: 0px 0px 1px red;
+	                /*box-shadow: 0px 0px 1px red;*/
 }
 
 a:link{
@@ -50,7 +50,7 @@ a:link{
 	flex: 1;
 	overflow-y: scroll;
 	background-color: #F5F5F5;
-	                box-shadow: 0px 0px 1px red;
+	                /*box-shadow: 0px 0px 1px red;*/
 }
 .ymstb1{
 	width: 40px;
@@ -60,7 +60,7 @@ a:link{
 	background-position: center;
 	background-repeat: no-repeat;
 	margin: 0px 0px 0px 10px;
-	                box-shadow: 0px 0px 1px red;
+	                /*box-shadow: 0px 0px 1px red;*/
 }
 .ymstb11{
 	background-image: url(../img/icon/dicovery/朋友圈.svg);
@@ -92,7 +92,7 @@ a:link{
 .ymstb2{
 	width:80px;
 	height: 40px;
-	                box-shadow: 0px 0px 1px red;
+	                /*box-shadow: 0px 0px 1px red;*/
 	text-align: left;
 	line-height: 40px;
 	text-indent: 10px;
@@ -101,7 +101,7 @@ a:link{
 .ymstb3{
 	width:20px;
 	height: 40px;
-	                box-shadow: 0px 0px 1px red;
+	                /*box-shadow: 0px 0px 1px red;*/
 	position: absolute;
 	right: 10px;
 	text-align: left;

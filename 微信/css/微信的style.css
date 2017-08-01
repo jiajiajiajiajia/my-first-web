@@ -67,16 +67,82 @@
 	margin: 0 auto;
 	position: fixed;
 	top: 30px;
-	/*box-shadow: 0px 0px 1px #BDBDBD;*/
 	display: flex;
 	justify-content: space-between;
 	background-color: black;
 }
 
-
-#jiahao:hover .tanchukuang {
-	visibility: inherit;
+.jhtanchukuang {
+	width: 150px;
+	height: 160px;
+	background-color: #424242;
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	/*opacity: .8;*/
+	vertical-align: middle;
+	align-items: center;
+	color: white;
+	font-size: 10px;
+	border-radius: 5px;
+	z-index: 1000;
 }
+.tckh{
+	/*position: absolute;top: 0px;*/
+	width: 150px;
+	height: 42px;
+	color: #9E9E9E;
+	border-top: 1px #BDBDBD;
+	display: flex;
+	justify-content: flex-start;
+}
+#tckxtb1{
+	width: 30px;
+	height: 30px;
+	margin: 1.5px;
+	background-image: url(../img/icon/control/发起群聊.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tckzt{
+	width: 120px;
+	height: 40px;
+	margin: 1.5px;
+	text-align: left;
+	text-indent: 5px;
+	line-height: 40px;
+}
+#tckxtb2{
+	width: 30px;
+	height: 30px;
+	margin: 1.5px;
+	background-image: url(../img/icon/control/添加朋友.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#tckxtb3{
+	width: 30px;
+	height: 30px;
+	margin: 1.5px;
+	background-image: url(../img/icon/control/扫一扫.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#tckxtb4{
+	width: 30px;
+	height: 30px;
+	margin: 1.5px;
+	background-image: url(../img/icon/control/收付款.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
 
 .tshdiv {
 	height: 40px;
@@ -127,6 +193,7 @@
 	/*box-shadow:0px 0px 2px #1565C0;*/
 	background-color: #EEEEEE;
 	min-width: 400px;
+	z-index: -1;
 }
 
 .sousuo {
@@ -151,7 +218,7 @@
 	text-align: center;
 	line-height: 20px;
 	color: #BDBDBD;
-	font-size: 15px;
+	font-size: -1px;
 }
 
 #jiahao {
