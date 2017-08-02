@@ -262,7 +262,8 @@ a:link{
 	height: 40px;
 	align-content: center;/*div纵向布局*/
 	position: relative;
-	background-color: #A9A9A9;
+	background-color: #E0E0E0;
+	box-shadow: 0px 0px #E0E0E0;
 	border-radius: 10px;
 }
 #dianzanren{
@@ -317,5 +318,5 @@ a:link{
     height: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-bottom: 8px solid #A9A9A9;
+    border-bottom: 8px solid #E0E0E0;
 }
