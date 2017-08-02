@@ -48,7 +48,7 @@ a:link{
 #pyqnr2{
 	width: 100%;
 	min-width: 300px;
-	                                                   height: 270px;
+	                                                   height: 280px;
 	position: fixed;
 	/*box-shadow: 0px 0px 1px red;*/
 	display: flex;
@@ -87,7 +87,7 @@ a:link{
 }
 #pyqwz{
 	width: 240px;
-	text-indent: 5px;
+	padding: 5px;
 	color: #4E342E;
 }
 #pyqft{
